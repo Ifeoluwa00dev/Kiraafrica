@@ -96,13 +96,13 @@ const Hero = () => {
             >
               KIRA AFRICA <br />
               <span className="text-[10px] md:text-xs font-sans font-normal opacity-80 uppercase tracking-widest block mt-1">Foundation Impact</span>
-              <div className="mt-4 h-1.5 w-full bg-white/20 rounded-full overflow-hidden">
+              {/* <div className="mt-4 h-1.5 w-full bg-white/20 rounded-full overflow-hidden">
                 <motion.div 
                   initial={{ width: 0 }}
-                  whileInView={{ width: '75%' }}
+                  whileInView={{ width: '95%' }}
                   className="h-full bg-brand-yellow"
                 />
-              </div>
+              </div> */}
             </motion.div>
           </div>
           
