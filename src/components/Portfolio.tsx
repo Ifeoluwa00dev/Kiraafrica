@@ -6,12 +6,12 @@ const Portfolio = () => {
   const [filter, setFilter] = useState('all');
 
   const items = [
-    { id: 1, type: 'performance', title: 'London Fashion Week', image: 'https://picsum.photos/seed/fashion/600/800' },
-    { id: 2, type: 'performance', title: 'EBRD Diversity Week', image: 'https://picsum.photos/seed/ebrd/600/800' },
-    { id: 3, type: 'foundation', title: 'Kira Africa Foundation', image: 'https://picsum.photos/seed/kira/600/800' },
-    { id: 4, type: 'performance', title: 'UNISON Black History Month', image: 'https://picsum.photos/seed/unison/600/800' },
-    { id: 5, type: 'media', title: 'Brandarc Media Launch', image: 'https://picsum.photos/seed/brandarc/600/800' },
-    { id: 6, type: 'performance', title: 'African Scottish Diversity Expo', image: 'https://picsum.photos/seed/expo/600/800' },
+    { id: 1, type: 'performance', title: 'London Fashion Week', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1772927130/IMG_0112_zz503v.jpg' },
+    { id: 2, type: 'performance', title: 'EBRD Diversity Week', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1772926932/IMG_0120_ysrrdi.jpg' },
+    { id: 3, type: 'foundation', title: 'Kira Africa Foundation', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1772927228/Kiraaaa_nfbnno.jpg' },
+    { id: 4, type: 'performance', title: 'UNISON Black History Month', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1772927288/IMG_0117_ricxi7.jpg' },
+    { id: 5, type: 'media', title: 'Brandarc Media Launch', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1772927827/IMG_0115_lo2ty6.jpg' },
+    { id: 6, type: 'performance', title: 'African Scottish Diversity Expo', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1772926175/IMG_0114_znapqz.jpg' },
   ];
 
   const filteredItems = filter === 'all' ? items : items.filter(i => i.type === filter);

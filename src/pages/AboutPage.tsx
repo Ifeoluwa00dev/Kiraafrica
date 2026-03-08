@@ -49,7 +49,7 @@ const AboutPage = () => {
               </h1>
               <div className="space-y-6 text-brand-dark/70 text-lg leading-relaxed">
                 <p className="font-bold text-brand-dark">
-                  Esther Ogo Akintade is a Nigerian-born percussionist, cultural ambassador, and creative founder based in the United Kingdom.
+                  Esther  Akintade is a Nigerian-born percussionist, cultural ambassador, and creative founder based in the United Kingdom.
                 </p>
                 <p>
                   Passionate about African rhythm, culture, and storytelling, she uses percussion as a powerful medium to connect people, celebrate heritage, and inspire transformation. Her journey into percussion began with a deep love for African sound and expression.
@@ -65,7 +65,7 @@ const AboutPage = () => {
               className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5]"
             >
               <img 
-                src="https://picsum.photos/seed/esther/800/1000" 
+                src="https://res.cloudinary.com/drkksaa3i/image/upload/v1772926667/1G6A3493_qqffjz.jpg" 
                 alt="Esther Akintade" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -150,13 +150,21 @@ const AboutPage = () => {
                 </div>
               </motion.div>
               <div className="grid grid-cols-2 gap-4">
-                <div className="aspect-square bg-white/5 rounded-3xl border border-white/10 flex items-center justify-center">
-                  <Globe size={48} className="opacity-20" />
-                </div>
-                <div className="aspect-square bg-white/5 rounded-3xl border border-white/10 flex items-center justify-center mt-12">
-                  <Music size={48} className="opacity-20" />
-                </div>
-              </div>
+  <div className="aspect-square bg-white/5 rounded-3xl border border-white/10 flex items-center justify-center overflow-hidden">
+    <img 
+      src="https://res.cloudinary.com/drkksaa3i/image/upload/v1772926863/IMG_0118_al8m2a.jpg" 
+      alt="" 
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <div className="aspect-square bg-white/5 rounded-3xl border border-white/10 flex items-center justify-center mt-12 overflow-hidden">
+    <img 
+      src="https://res.cloudinary.com/drkksaa3i/image/upload/v1772926932/IMG_0120_ysrrdi.jpg" 
+      alt="" 
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
             </div>
           </div>
         </section>

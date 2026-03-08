@@ -42,7 +42,7 @@ const Home = () => {
               className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://picsum.photos/seed/drums/800/800" 
+                src="https://res.cloudinary.com/drkksaa3i/image/upload/v1772926300/1G6A3497_pwaqjn.jpg" 
                 alt="Esther Akintade Percussion" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

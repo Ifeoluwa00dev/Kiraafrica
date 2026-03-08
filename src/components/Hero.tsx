@@ -78,7 +78,7 @@ const Hero = () => {
         >
           <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl preserve-3d group">
             <img 
-              src="https://picsum.photos/seed/percussion/800/1000" 
+              src="https://res.cloudinary.com/drkksaa3i/image/upload/v1772926175/IMG_0114_znapqz.jpg" 
               alt="Esther Ogo Akintade" 
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
               referrerPolicy="no-referrer"
