@@ -18,18 +18,23 @@ const AboutPage = () => {
     { 
       source: "UNISON City of Edinburgh", 
       title: "Black History Month Feature", 
-      desc: "Featured in 'Standing Firm in Power and Pride', celebrating Black culture and identity in Edinburgh." 
+      desc: "Featured in the official UNISON City of Edinburgh platform as part of their Black History Month celebrations. The event, titled “Standing Firm in Power and Pride,” celebrated Black culture, identity, and community contributions in Edinburgh.Her performance highlighted African rhythm and cultural expression, contributing to the celebration of diversity and cultural heritage in the UK." 
     },
     { 
       source: "BellAfricana", 
       title: "African Visionary Creatives Spotlight", 
-      desc: "Recognized as an innovator and change-maker shaping culture and driving impact." 
+      desc: "Recognized as an innovator and change-maker shaping culture and driving impact.  Featured by BellAfricana as one of the African Visionary Creatives, celebrating African innovators and change-makers who are shaping culture and driving impact across the continent and diaspora. The spotlight recognised her work as the Founder of Kira Africa, highlighting her commitment to empowering communities and celebrating African creativity." 
     },
     { 
       source: "Black Scottish Stories", 
       title: "Creative Interview Feature", 
-      desc: "Exploring the journey of a percussionist and founder promoting African heritage." 
+      desc: " Featured by Black Scottish Stories, a platform that highlights the experiences and stories of Black individuals in Scotland. The feature explores her journey as a percussionist, creative founder, and cultural advocate working to celebrate African heritage and inspire community through rhythm and storytelling." 
     },
+    {
+      source: "Kirative Africa Creative Spotlight",
+      title: "Creative Spotlight",
+      desc: "Through Kirative Africa, Esther has been recognised as a creative leader supporting and amplifying African creatives. Her work continues to inspire collaboration and visibility for emerging African talent across creative industries."
+    }
   ];
 
   return (
@@ -56,6 +61,11 @@ const AboutPage = () => {
                 </p>
                 <p>
                   Over the years, Esther has performed at cultural events, community gatherings, and creative platforms in the UK, including performances at fashion shows and cultural showcases. Her performances are known for their vibrant energy and ability to bring audiences into the spirit of African rhythm and celebration.
+                </p>
+                <p> 
+                  Beyond music, Esther is a visionary leader and the founder of several initiatives focused on community, creativity, and impact. She founded Kira Africa Foundation, a charity dedicated to supporting mothers and children, and Kirative Africa, a growing community that celebrates and connects African creatives. She also leads Brandarc Media, a platform supporting authentic African-led brands with branding and storytelling.
+Through performance, community building, and creative leadership, Esther continues to amplify African voices and inspire meaningful cultural connection across borders.
+
                 </p>
               </div>
             </motion.div>
@@ -191,9 +201,7 @@ const AboutPage = () => {
                 </div>
                 <h3 className="text-xl font-display font-bold mb-4">{item.title}</h3>
                 <p className="text-brand-dark/60 text-sm leading-relaxed mb-6">{item.desc}</p>
-                <button className="text-brand-green font-bold text-xs uppercase tracking-widest hover:underline">
-                  Read Feature
-                </button>
+                
               </motion.div>
             ))}
           </div>
