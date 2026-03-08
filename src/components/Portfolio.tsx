@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Play, ExternalLink, Filter } from 'lucide-react';
+import { Filter } from 'lucide-react';
 
 const Portfolio = () => {
   const [filter, setFilter] = useState('all');
@@ -69,27 +69,14 @@ const Portfolio = () => {
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-80 group-hover:opacity-100"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8 md:p-10">
+                {/* Always visible overlay at bottom */}
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-brand-dark/20 to-transparent flex flex-col justify-end p-8 md:p-10">
                   <span className="text-brand-accent text-[10px] font-mono uppercase tracking-[0.2em] mb-2">
                     {item.type}
                   </span>
-                  <h4 className="text-white text-2xl md:text-3xl font-display font-bold mb-6 leading-tight">{item.title}</h4>
-                  <div className="flex gap-4">
-                    <motion.button 
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-white text-brand-dark flex items-center justify-center hover:bg-brand-accent transition-colors shadow-lg"
-                    >
-                      <Play size={20} fill="currentColor" />
-                    </motion.button>
-                    <motion.button 
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      className="w-12 h-12 md:w-14 md:h-14 rounded-full border border-white/20 text-white flex items-center justify-center hover:bg-white/10 transition-colors backdrop-blur-md"
-                    >
-                      <ExternalLink size={20} />
-                    </motion.button>
-                  </div>
+                  <h4 className="text-white text-2xl md:text-3xl font-display font-bold leading-tight">
+                    {item.title}
+                  </h4>
                 </div>
               </motion.div>
             ))}
