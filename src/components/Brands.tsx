@@ -78,9 +78,7 @@ const Brands = () => {
                     <span className="text-[10px] font-mono text-white/30 uppercase tracking-widest">Impact</span>
                     <span className="text-sm font-bold text-white/80">{brand.stats}</span>
                   </div>
-                  <button className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-accent group-hover:text-brand-dark transition-all">
-                    <ArrowUpRight size={20} />
-                  </button>
+                  
                 </div>
               </div>
             </motion.div>
