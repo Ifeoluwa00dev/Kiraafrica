@@ -33,7 +33,7 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-brand-dark/70 text-base md:text-lg leading-relaxed">
                 <p>
-                  Esther Ogo Akintade is a visionary percussionist and cultural advocate whose work transcends boundaries. Her journey started with a deep-seated passion for the heartbeat of Africa—the drum.
+                  Esther  Akintade is a visionary percussionist and cultural advocate whose work transcends boundaries. Her journey started with a deep-seated passion for the heartbeat of Africa—the drum.
                 </p>
                 <p>
                   Beyond the stage, Esther is a catalyst for change. As the founder of Kira Africa Foundation, she works tirelessly to empower the next generation of African creatives, ensuring our stories are told with authenticity and power.

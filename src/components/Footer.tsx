@@ -113,7 +113,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-mono text-white/30 uppercase tracking-widest text-center md:text-left">
-          <p>© 2024 Esther Ogo Akintade. Crafted with Rhythm.</p>
+          <p>© 2024 Esther  Akintade. Crafted with Rhythm.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

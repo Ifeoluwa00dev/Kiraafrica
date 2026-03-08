@@ -89,7 +89,7 @@ const AboutPage = () => {
             </motion.div>
             <div className="space-y-8 text-white/70 text-lg leading-relaxed">
               <p>
-                Esther Ogo Akintade is a percussionist, creative leader, and cultural advocate whose work centers around rhythm, identity, and community impact. Born in Nigeria and now based in the UK, Esther’s journey reflects resilience, passion, and a deep commitment to uplifting African culture and creativity.
+                Esther  Akintade is a percussionist, creative leader, and cultural advocate whose work centers around rhythm, identity, and community impact. Born in Nigeria and now based in the UK, Esther’s journey reflects resilience, passion, and a deep commitment to uplifting African culture and creativity.
               </p>
               <p>
                 Her love for percussion grew from a desire to express culture through rhythm. For Esther, drumming is more than performance—it is storytelling, healing, and celebration. She has brought this passion to stages and events across the UK, where her performances create vibrant cultural experiences that connect audiences with African heritage.

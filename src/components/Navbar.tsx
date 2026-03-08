@@ -175,7 +175,7 @@ const Navbar = () => {
                   </Link>
                   <div className="mt-8 flex justify-center gap-6 text-brand-dark/40">
                     <Music size={20} />
-                    <span className="text-[10px] font-mono uppercase tracking-[0.3em]">Esther Ogo</span>
+                    <span className="text-[10px] font-mono uppercase tracking-[0.3em]">Esther</span>
                   </div>
                 </div>
               </motion.div>
