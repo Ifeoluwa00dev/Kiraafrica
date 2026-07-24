@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Kira Africa
 
-# Run and deploy your AI Studio app
+**Portfolio website for Esther Akintade — percussionist, cultural ambassador, and community builder.**
 
-This contains everything you need to run your app locally.
+A personal portfolio for Nigerian-born percussionist and cultural advocate Esther Akintade, designed to bridge rhythm, identity, and impact through a compelling digital presence.
 
-View your app in AI Studio: https://ai.studio/apps/b8432145-09d5-40b7-bdab-984eee82b500
+---
 
-## Run Locally
+## About
 
-**Prerequisites:**  Node.js
+Esther Akintade is a percussionist and founder working at the intersection of African music, cultural advocacy, and community building. This site serves as her professional home — showcasing her story, performances, projects, and mission.
+
+---
+
+## Features
+
+- Full biography and artist statement
+- Performance gallery and media
+- Cultural projects and community initiatives
+- Press and speaking engagements
+- Contact and booking
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React + TypeScript |
+| Styling | Tailwind CSS |
+| Deployment |Netlify |
+
+---
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+---
+
+## License
+
+All content — text, images, and media — belongs to Esther Akintade. Code is MIT licensed.
