@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
+import AsFeaturedIn from '../components/AsFeaturedIn';
 import PageTransition from '../components/PageTransition';
 import { motion } from 'motion/react';
 
@@ -7,6 +8,7 @@ const Home = () => {
   return (
     <PageTransition>
       <Hero />
+      <AsFeaturedIn />
       
       {/* Brand Story Section */}
       <section className="py-24 bg-brand-light">

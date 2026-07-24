@@ -12,6 +12,8 @@ const AboutPage = () => {
     { title: "African Scottish Diversity Expo 2025", desc: "Celebrated African heritage and cultural unity through music." },
     { title: "BellAfricana Visionary Creative", desc: "Recognized as an impactful African creative shaping culture and community." },
     { title: "Black Scottish Stories", desc: "Highlighting the journey of a percussionist, founder, and cultural advocate." },
+    { title: "CAREED 10th Anniversary, Scotland", desc: "Performed at CAREED's 10th anniversary celebration in Scotland, spotlighting African culture through rhythm and performance." },
+    { title: "University Speaking Tour, Scotland", desc: "Delivered a speech across universities in Scotland, sharing her journey and spotlighting African culture and identity." },
   ];
 
   const mediaFeatures = [
@@ -34,6 +36,42 @@ const AboutPage = () => {
       source: "Kirative Africa Creative Spotlight",
       title: "Creative Spotlight",
       desc: "Through Kirative Africa, Esther has been recognised as a creative leader supporting and amplifying African creatives. Her work continues to inspire collaboration and visibility for emerging African talent across creative industries."
+    },
+    {
+      source: "The Sun",
+      title: "Performs at CAREED's 10th Anniversary Event in Scotland",
+      desc: "Featured for her performance at CAREED's 10th anniversary event in Scotland, spotlighting African culture through rhythm and storytelling.",
+      link: "https://thesun.ng/nigerian-female-talking-drummer-kira-africa-performs-at-careed-10th-anniversary-event-in-scotland/"
+    },
+    {
+      source: "Vanguard",
+      title: "Spotlights African Culture in Scotland",
+      desc: "Covered for bringing African culture and rhythm to audiences across Scotland through performance and public speaking.",
+      link: "https://www.vanguardngr.com/2026/07/nigerian-talking-drummer-kira-africa-spotlights-african-culture-in-scotland/"
+    },
+    {
+      source: "The Guardian",
+      title: "Nigerian Female Drummer Takes African Culture to Scotland",
+      desc: "Profiled for her work taking African culture and percussion to new audiences in Scotland.",
+      link: "https://guardian.ng/guardian-angels/nigerian-female-drummer-takes-african-culture-to-scotland/"
+    },
+    {
+      source: "AllAfrica",
+      title: "Feature Coverage",
+      desc: "Featured in continental coverage highlighting her cultural advocacy and performance work in Scotland.",
+      link: "https://allafrica.com/stories/202607030308.html"
+    },
+    {
+      source: "Yoruba FM",
+      title: "Spotlights African Culture in Scotland",
+      desc: "Featured for her cultural advocacy work and performances spotlighting African heritage in Scotland.",
+      link: "https://www.yorubafm.com/nigeria-nigerian-talking-drummer-kira-africa-spotlights-african-culture-in-scotland/"
+    },
+    {
+      source: "Talented Women Network",
+      title: "She Left Nigeria With a Drum. Now She's Speaking at Universities Across Scotland",
+      desc: "Profiled on her journey from Nigeria to becoming a sought-after speaker and performer at universities across Scotland.",
+      link: "https://talentedwomennetwork.com/she-left-nigeria-with-a-drum-now-shes-speaking-at-universities-across-scotland/"
     }
   ];
 
@@ -201,10 +239,51 @@ Through performance, community building, and creative leadership, Esther continu
                 </div>
                 <h3 className="text-xl font-display font-bold mb-4">{item.title}</h3>
                 <p className="text-brand-dark/60 text-sm leading-relaxed mb-6">{item.desc}</p>
-                
+                {item.link && (
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brand-green text-xs font-bold uppercase tracking-widest hover:underline"
+                  >
+                    Read Article →
+                  </a>
+                )}
               </motion.div>
             ))}
           </div>
+        </section>
+
+        {/* University Speech Section */}
+        <section className="max-w-5xl mx-auto px-6 mt-24">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <div className="w-16 h-16 bg-brand-green/10 rounded-3xl flex items-center justify-center mx-auto mb-6">
+              <Mic size={28} className="text-brand-green" />
+            </div>
+            <h2 className="text-4xl font-display font-bold mb-4">University Speaking Tour</h2>
+            <p className="text-brand-dark/60 max-w-2xl mx-auto">
+              Watch Esther's speech delivered at a university in Scotland, sharing her journey and spotlighting African culture and identity.
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.97 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            className="relative rounded-3xl overflow-hidden shadow-2xl aspect-video"
+          >
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/Ai8J2TwQy_M"
+              title="University Speaking Tour"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </motion.div>
         </section>
       </div>
     </PageTransition>
