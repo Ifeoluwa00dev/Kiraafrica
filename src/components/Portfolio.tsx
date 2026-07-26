@@ -6,6 +6,10 @@ const Portfolio = () => {
   const [filter, setFilter] = useState('all');
 
   const items = [
+    { id: 7, type: 'performance', title: 'CAREED 10th Anniversary Conference', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1785021185/IMG-20260725-WA0039_bxg8gw.jpg' },
+    { id: 8, type: 'performance', title: 'University Speaking Tour, Scotland', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1785021190/IMG-20260725-WA0035_r8pi5f.jpg' },
+    { id: 10, type: 'performance', title: 'University Speaking Tour, Scotland', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1785021187/IMG-20260725-WA0037_qcljw5.jpg' },
+    { id: 9, type: 'performance', title: 'CAREED Anniversary Conference', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1785021187/IMG-20260725-WA0038_i78r0b.jpg' },
     { id: 1, type: 'performance', title: 'London Fashion Week', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1772927130/IMG_0112_zz503v.jpg' },
     { id: 2, type: 'performance', title: 'EBRD Diversity Week', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1772926932/IMG_0120_ysrrdi.jpg' },
     { id: 3, type: 'foundation', title: 'Kira Africa Foundation', image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1772927228/Kiraaaa_nfbnno.jpg' },
